@@ -623,8 +623,7 @@ main p{
     font-family: var(--open-sans);
     color: var(--text-color4);
     font-size: 16px;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 
 #article6_2 input{
@@ -643,8 +642,7 @@ main p{
 }
 
 #flx input {
-    width: 100%; 
-    
+    width: 100%;    
 }
 
 form {
@@ -670,7 +668,6 @@ form textarea{
     outline: none;
     font-family: var(--open-sans);
     font-size: 16px;
-
 }
 
 #article6_2 select{
@@ -702,8 +699,8 @@ form textarea{
 
 #btn3:hover{
     background-color: var(--text-color3);
-    transition: all 0.3s;
-    
+    border: 1px solid var(--text-color3);
+    transition: all 0.3s;   
 }
 
 
