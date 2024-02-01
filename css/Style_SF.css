@@ -519,7 +519,6 @@ main p{
 #div5_2{
     width: 100%;
     background-color: var(--fond-color2);
-    
     border-radius: 24px 0px 0px 24px;
     padding: 20px 40px;
 }
@@ -583,7 +582,130 @@ main p{
     margin: auto;
     width: 100%;
     background-color: var(--fond-color2);
-    
     border-radius: 0px 24px 24px 0px;
     padding: 20px 40px;
 }
+
+#section6{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#section6 article{
+    width: 40%;
+}
+
+#article6_2{
+    
+    background-color: var(--fond-color2);
+    
+    border-radius: 24px;
+    padding: 20px 40px 40px;
+}
+
+#article6_2 h3{
+    font-family: var(--oswald);
+    color: var(--text-color4);
+    font-size: 38px;
+    font-weight: 700;
+    margin: 20px;
+    display: ruby-text;
+}
+
+#article6_2 form{ 
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-family: var(--open-sans);
+    color: var(--text-color4);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+#article6_2 input{
+    background-color: var(--fond-color2);
+    border: 1px solid var(--text-color1);
+    outline: none;
+    padding: 8px 16px;
+    margin-bottom: 20px; 
+    font-family: var(--open-sans);
+    font-size: 16px;
+}
+
+#flx {
+    display: flex;
+    gap: 20px; 
+}
+
+#flx input {
+    width: 100%; 
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form select,
+form textarea,
+form label {
+    margin-bottom: 20px;
+}
+
+label input{
+    margin-bottom: 0!important;
+}
+
+form textarea{
+    background-color: var(--fond-color2);
+    color: var(--text-color4);
+    border: 1px solid var(--text-color1);
+    outline: none;
+    font-family: var(--open-sans);
+    font-size: 16px;
+
+}
+
+#article6_2 select{
+    background-color: var(--fond-color2);
+    border: 1px solid var(--text-color1);
+    outline: none;
+    color: var(--text-color4);
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#terme input{
+    margin-bottom: none;
+    line-height: 20%;
+}
+
+#btn3{
+    width: 27%;
+    background-color: var(--text-color1);
+    color: var(--text-color4);
+    border: 1px solid var(--text-color1);
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px 0px;
+    transition: all 0.3s;
+}
+
+#btn3:hover{
+    background-color: var(--text-color3);
+    transition: all 0.3s;
+    
+}
+
+
+
+
