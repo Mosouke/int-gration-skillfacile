@@ -372,6 +372,7 @@ main p{
     display: flex;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin: auto;
 }
 
 #section4 article{
@@ -456,9 +457,10 @@ main p{
     padding: 40px;
 }
 
-#section1{
+#section5{
     max-width: 1440px;
     margin: auto;
+    padding: 10px;
 }
 
 #article5_1{
@@ -468,4 +470,120 @@ main p{
     line-height: 40px;
     margin-top: 40px;
     margin-bottom: 100px;
+}
+
+#article5_2{
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#article5_2 h3{
+    font-family: var(--oswald);
+    color: var(--text-color1);
+    font-size: 28px;
+    font-weight: 400;
+    margin: 8px 0px 16px;
+}
+
+#article5_2 ul{
+    padding-left: 0px;
+}
+
+#article5_2 li{
+    font-family: var(--open-sans);
+    color: var(--text-color4);
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 10px;   
+}
+
+#article5_2 img{
+    max-width: 413px;
+   
+}
+
+#article5_2 li::before{
+    content: url(/img/téléchargement.png);
+    margin-right: 4px;
+}
+
+#div5_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+}
+
+#div5_2{
+    width: 100%;
+    background-color: var(--fond-color2);
+    
+    border-radius: 24px 0px 0px 24px;
+    padding: 20px 40px;
+}
+
+#article5_2 a{
+    position: relative;
+    margin-left: 305px;
+}
+
+#article5_3{
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#article5_3 h3{
+    font-family: var(--oswald);
+    color: var(--text-color1);
+    font-size: 28px;
+    font-weight: 400;
+    margin: 8px 0px 16px;
+}
+
+#article5_3 ul{
+    padding-left: 0px;
+}
+
+#article5_3 li{
+    font-family: var(--open-sans);
+    color: var(--text-color4);
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 10px;   
+}
+
+#article5_3 img{
+    max-width: 413px;
+   
+}
+
+#article5_3 li::before{
+    content: url(/img/téléchargement.png);
+    margin-right: 4px;
+}
+
+#div5_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+}
+
+#article5_3 a{
+    position: relative;
+    margin-left: 693px;
+}
+
+
+#div5_4{
+    margin: auto;
+    width: 100%;
+    background-color: var(--fond-color2);
+    
+    border-radius: 0px 24px 24px 0px;
+    padding: 20px 40px;
 }
